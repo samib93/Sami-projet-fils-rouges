@@ -17,17 +17,17 @@ body{
 .dashboard-map {
   position: relative;
   top: 0vh;
-  height: 70vh; /* Ajuste la hauteur de la carte selon tes besoins */
-  width: 70vh;
-  border: 2px solid #007bff; /* Couleur du contour de la carte */
-  border-radius: 10px; /* Rayon des coins de la carte */
-  filter: grayscale(100%)brightness(100%); /* Applique un filtre noir et blanc à 100% de niveaux de gris */
+  height: 70vh;
+  width: 150vh;
+  border: 5px solid #007bff; 
+  border-radius: 30px; 
+  filter: grayscale(100%)brightness(100%);
 }
 
 .dashboard-section {
   position:relative;
-  right: 70vh;
-  background: rgba(255, 255, 255, 0.517);
+  right: 10vh;
+  background: rgba(63, 90, 148, 0.517);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgb(255, 255, 255);
   backdrop-filter: blur(6.5px);
@@ -83,8 +83,8 @@ body{
 .container {
   max-width: 800px;
   width: 100%;
-  background-color: #4c76774b;
-  color: #fff;
+  background-color: #3c3fed4b;
+  color: #5e478f;
   border-radius: 25px;
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.26);
 }
@@ -158,7 +158,7 @@ body{
   border-radius: 5px;
   padding: 0.7rem 1rem;
   font-family: inherit;
-  color: #8dfc0e;
+  color: #3c3fed4b;
   font-size: 1.5rem;
 }
 
@@ -173,7 +173,7 @@ body{
   font-size: 1.2rem;
   outline: none;
   border: none;
-  background: #31af85;
+  background: #1400f0;
   color: #fff;
   cursor: pointer;
 }

@@ -1,5 +1,5 @@
 section {
-  background-color: black;
+  background-color: rgb(48, 47, 47);
 }
 
 
@@ -7,7 +7,7 @@ section {
 
 header {
     position: relative;
-    background-color: black;
+    background-color: rgb(120, 120, 120);
     height: 100vh;
     min-height: 25rem;
     width: 100%;
@@ -36,7 +36,16 @@ header {
     }
   
     .display-3{
-      font-size: 30vh;
+      font-size: 200px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; 
+  color: #333; 
+  text-align: center; 
+  padding: 20px; 
+  margin: 20px 0;
+  border: 5px solid #000; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
   }
   
   
